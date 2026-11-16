@@ -55,7 +55,8 @@ export function Header() {
           >
             Kev
           </span>
-          <span className="hidden sm:inline">Profile</span>
+          {/* This should be profile name - hardcoded to my name for now */}
+          <span className="hidden sm:inline">Kevin</span>
         </button>
       </div>
     </header>
