@@ -3,10 +3,13 @@ import { NavSide } from "@/components/navside";
 
 export default function Home() {
   return (
-    <main className="">
+    <main className="flex min-h-screen flex-col">
       <Header />
-      <div className="grid grid-cols-2 gap-4 sm:gap-6 lg:gap-8">
+      <div className="grid flex-1 grid-cols-1 md:grid-cols-[16rem_minmax(0,1fr)]">
         <NavSide />
+        <section className="min-w-0 p-4 sm:p-6">
+          {/* Page content goes here */}
+        </section>
       </div>
     </main>
   );
