@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export function NavSide() {
   return (
-    <div className="h-full bg-[#17231D]/80 backdrop-blur-sm">
+    <div className="h-full bg-[#17231D] backdrop-blur-sm">
       <nav
         aria-label="Main navigation"
         className="flex h-full w-full flex-col items-start gap-1 px-3 py-4"

@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export function Header() {
   return (
-    <header className="sticky top-0 z-50 w-full border-b border-white/10  backdrop-blur-sm bg-[#24352B]/80">
+    <header className="sticky top-0 z-50 w-full border-b border-white/10  backdrop-blur-sm bg-[#24352B]">
       <div className="grid h-16 w-full grid-cols-3 items-center gap-3 px-3 sm:gap-4 sm:px-5 lg:px-8">
         <Link href="/" aria-label="Home" className="w-fit shrink-0">
           <Image
